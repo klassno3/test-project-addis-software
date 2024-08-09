@@ -40,7 +40,7 @@ const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 `;
 
@@ -68,6 +68,9 @@ const Title = styled.h4`
   color: #333;
   flex-direction: column;
   gap: 7px;
+  @media (max-width: 400px) {
+    font-size: 18px;
+  }
 `;
 const EditSong = ({ editSong, showModal }) => {
   const { _id, name, artist, album } = editSong;

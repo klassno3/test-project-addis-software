@@ -40,6 +40,9 @@ const FlexContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 20px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 const PlayContainer = styled.div`
   display: flex;
