@@ -10,7 +10,7 @@ const TableData = styled.td`
   width: 100%;
   text-align: left;
   text-transform: capitalize;
-  font-weight: 300;
+  font-weight: 400;
 
   ${space} ${layout} ${color};
   @media (max-width: 768px) {
@@ -33,7 +33,7 @@ const TableRow = styled.tr`
     display: flex;
   }
   @media (max-width: 768px) {
-    font-size: 10px;
+    font-size: 12px;
   }
 `;
 const FlexContainer = styled.div`
@@ -87,8 +87,8 @@ const Song = ({ song, number }) => {
 
   return (
     <TableRow>
-      <TableData width={1 / 30}>{number + 1}</TableData>
-      <TableData width={1 / 4}>
+      <TableData width={3 / 100}>{number + 1}</TableData>
+      <TableData width={7 / 20}>
         <FlexContainer>
           <PlayContainer>
             <FaBackward />
@@ -102,8 +102,8 @@ const Song = ({ song, number }) => {
           {name}
         </FlexContainer>
       </TableData>
-      <TableData width={1 / 3}>{artist} </TableData>
-      <TableData width={1 / 4}>
+      <TableData width={27 / 100}>{artist} </TableData>
+      <TableData width={7 / 20}>
         {" "}
         <FlexContainer>
           {album}

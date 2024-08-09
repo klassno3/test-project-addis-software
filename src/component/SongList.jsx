@@ -85,10 +85,10 @@ const SongList = () => {
             <Table>
               <thead>
                 <TableRow>
-                  <TableHeader width={1 / 30}>#</TableHeader>
-                  <TableHeader width={1 / 4}>Title</TableHeader>
-                  <TableHeader width={1 / 3}> Artist</TableHeader>
-                  <TableHeader width={1 / 4}>Album</TableHeader>
+                  <TableHeader width={3 / 100}>#</TableHeader>
+                  <TableHeader width={7 / 20}>Title</TableHeader>
+                  <TableHeader width={27 / 100}> Artist</TableHeader>
+                  <TableHeader width={7 / 20}>Album</TableHeader>
                 </TableRow>
               </thead>
               {isLoading ? (
