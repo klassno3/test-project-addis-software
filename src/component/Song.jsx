@@ -42,6 +42,7 @@ const FlexContainer = styled.div`
   gap: 20px;
   @media (max-width: 768px) {
     flex-direction: column;
+    gap: 10px;
   }
 `;
 const PlayContainer = styled.div`
@@ -70,10 +71,11 @@ const ActionContainer = styled.span`
   font-size: 16px;
   & > * {
     cursor: pointer;
+    display: flex;
   }
 
   @media (max-width: 768px) {
-    font-size: 12px;
+    font-size: 16px;
     gap: 10px;
   }
 `;
