@@ -69,14 +69,15 @@ const ActionContainer = styled.span`
   align-items: center;
   gap: 20px;
   font-size: 16px;
+  color: #444;
+
   & > * {
     cursor: pointer;
-    display: flex;
   }
 
   @media (max-width: 768px) {
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
     gap: 10px;
   }
 `;
