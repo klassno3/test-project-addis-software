@@ -33,7 +33,6 @@ const TableRow = styled.tr`
   }
   @media (max-width: 768px) {
     font-size: 10px;
-    color: red;
   }
 `;
 const FlexContainer = styled.div`
