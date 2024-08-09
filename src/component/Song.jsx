@@ -9,6 +9,7 @@ const TableData = styled.td`
   text-align: center;
   width: 100%;
   text-align: left;
+  text-transform: capitalize;
   font-weight: 300;
 
   ${space} ${layout} ${color};
