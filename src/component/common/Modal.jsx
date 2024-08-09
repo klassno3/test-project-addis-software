@@ -37,7 +37,7 @@ const Modal = ({ onClose, children, actionBar }) => {
     font-family: "Poppins", sans-serif;
     @media (max-width: 768px) {
       height: 500px;
-      width: 230px;
+      width: 260px;
     }
   `;
   const ModalActionBar = styled.div`
