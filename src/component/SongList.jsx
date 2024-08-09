@@ -50,6 +50,7 @@ ${color}
   font-weight: 500;
   @media (max-width: 768px) {
     font-size: 14px;
+    padding: 15px 7px;
   }
 `;
 
