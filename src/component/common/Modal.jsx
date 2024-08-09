@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 import React, { useEffect } from "react";
 import ReactDOM from "react-dom";
-import { Toaster } from "react-hot-toast";
 
 const Modal = ({ onClose, children, actionBar }) => {
   useEffect(() => {
@@ -58,8 +57,6 @@ const Modal = ({ onClose, children, actionBar }) => {
     <div>
       <Container onClick={onClose}></Container>
       <ModalBack>
-        <Toaster />
-
         <ModalActionBar>{actionBar}</ModalActionBar>
         <ModalContent>
           <ModalChildren className="w-11/12 md:w-10/12 lg:w-9/12">
