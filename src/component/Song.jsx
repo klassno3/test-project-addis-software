@@ -75,6 +75,7 @@ const ActionContainer = styled.span`
   }
 
   @media (max-width: 768px) {
+    display: flex;
     font-size: 16px;
     gap: 10px;
   }
